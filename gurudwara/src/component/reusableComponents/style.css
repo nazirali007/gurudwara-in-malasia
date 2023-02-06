@@ -1,0 +1,18 @@
+.slick-dots li.slick-active button:before {
+    color: #881798;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #881798;
+  }
+  .slick-list{
+    margin: 5px;
+  }
+
+  .slick-slide > div {
+    margin: 0px 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }

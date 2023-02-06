@@ -1,0 +1,28 @@
+.main-div {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.first-heading {
+  color: #f97201;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input:focus {
+  border: 1px solid #f97201;
+}
+.note {
+  color: #f97201;
+}
+.btn1 {
+  min-width: 100px;
+  color: white;
+  background-color: #f97201;
+}
+.btn2 {
+  min-width: 100px;
+  color: white;
+}

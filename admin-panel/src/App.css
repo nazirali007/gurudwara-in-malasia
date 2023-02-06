@@ -1,0 +1,40 @@
+.border-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.live-link {
+  display: block;
+}
+@media screen and (max-width: 995px) {
+  .sm-table-data {
+    display: none;
+  }
+  .live-link {
+    display: none;
+  }
+}
+
+.activeLink {
+  color: green;
+}
+
+.fade.new-modal-css.modal.show {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  z-index: 20000;
+}
+
+/* @media screen and (max-width: 576px) {
+  .fade.new-modal-css.modal.show {
+   
+    
+    left: 0;
+    transform: translate(0, -50%);
+  
+  }
+} */

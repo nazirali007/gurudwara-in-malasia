@@ -1,0 +1,30 @@
+.ger-div{
+    background-color:#e9ecef;
+    border-radius:5px;
+  }
+  .children-div{
+      background-color:#e9ecef;
+    border-radius:5px;  
+  }
+  .first-heading{
+    color:#F97201; font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+  }
+  .input:focus {
+  border: 1px solid #F97201;
+}
+
+.btn1{
+min-width:100px;
+color:white;
+background-color:#F97201;
+}
+.btn2{
+min-width:100px;
+color:white;
+
+}

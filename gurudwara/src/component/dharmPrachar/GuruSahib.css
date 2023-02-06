@@ -1,0 +1,16 @@
+.main-div1 {
+  background-color: white;
+  border-radius: 5px;
+}
+.first-heading1 {
+  color: #f97201;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text1 {
+  font-size: 15px;
+  text-align: justify;
+}

@@ -1,0 +1,33 @@
+.text6 {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: bold;
+}
+.livevdo {
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.livevedio {
+  width: 100%;
+  border-radius: 10px;
+  min-height: 100%;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.livebtn {
+  background-color: #f97201;
+  color: rgb(82, 64, 64);
+}
+.livebtn:hover {
+  background-color: #a38064;
+  
+
+
+}
+.livebtn a:hover {
+  /* background-color: #b7987f; */
+color: #322113;
+
+}

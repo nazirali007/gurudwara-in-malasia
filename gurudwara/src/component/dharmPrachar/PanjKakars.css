@@ -1,0 +1,32 @@
+.main-div3{
+    background-color: white;
+    border-radius:5px;
+  }
+  .first-heading3{
+        color:#F97201; 
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+  }
+  .text2{
+    text-align: justify;
+    font-size:15px;
+  }
+  .imagediv3{
+  background-color: #F97201; 
+  margin: 0; 
+  padding: 0; 
+  border-radius:8px; 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+  }
+  .gurudwaraimage3{
+      width:100%;    
+  }
+  .imgetext3{
+font-size:15px; 
+text-align: justify;
+color: white;
+
+}

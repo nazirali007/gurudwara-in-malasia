@@ -1,0 +1,43 @@
+.main-div2 {
+  background-color: white;
+  border-radius: 5px;
+}
+.first-heading2 {
+  color: #f97201;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text2 {
+  text-align: justify;
+  font-size: 15px;
+}
+.gurudwaraimage {
+  width: 100%;
+}
+
+.imgetext {
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+}
+.imagediv {
+  background-color: #f97201;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardbox {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text3 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+.text4 {
+  font-weight: bold;
+}

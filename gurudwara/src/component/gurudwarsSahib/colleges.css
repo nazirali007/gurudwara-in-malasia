@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.backgroundImage {
+  background-image: url("https://www.sanskrutirestaurant.co.uk/liverpool/wp-content/uploads/2021/12/harsharan-singh-AGC8TusV2tI-unsplash-1536x1002.jpg");
+  width: 100%;
+  min-height: 80vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.clzheading {
+  color: white;
+  font-weight: bold;
+}
+.clz-div {
+  min-height: 100px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+.thead {
+  border-radius: 8px;
+}
+.urlclz {
+  color: #f97201;
+  cursor: pointer;
+}
