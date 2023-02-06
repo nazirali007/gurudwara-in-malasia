@@ -6,6 +6,7 @@ import { home } from "../reusableComponents/DataApi";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import img0 from "../../asset/images/img0.jpeg"
 import url from "../../url";
 
 const Home = () => {
@@ -51,24 +52,22 @@ const Home = () => {
     navigate(`/hukamnama/${hukumnamaData.photo}`);
   };
 
-const date = new Date();
-const day = `${date.getDate()}` 
-console.log("day of date...",date.getDate());
-const month = `${(date.getMonth() + 1) }`
-let dayNum = "";
-let monthNum = "";
-if (day.length === 1)
-{
-  dayNum = `0${day}`
-}
-if(month.length === 1)
-{
-  monthNum =`0${month}`
-}
-//  let currentDate="";
-let currentDate = date.getDate() +"/"+ (date.getMonth() + 1)  +"/"+ date.getFullYear();
-//  currentDate = `${dayNum}/${monthNum}/${date.getFullYear()}`;
-
+  const date = new Date();
+  const day = `${date.getDate()}`;
+  console.log("day of date...", date.getDate());
+  const month = `${date.getMonth() + 1}`;
+  let dayNum = "";
+  let monthNum = "";
+  if (day.length === 1) {
+    dayNum = `0${day}`;
+  }
+  if (month.length === 1) {
+    monthNum = `0${month}`;
+  }
+  //  let currentDate="";
+  let currentDate =
+    date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+  //  currentDate = `${dayNum}/${monthNum}/${date.getFullYear()}`;
 
   useEffect(() => {
     getData();
@@ -89,65 +88,72 @@ let currentDate = date.getDate() +"/"+ (date.getMonth() + 1)  +"/"+ date.getFull
         <div className="row d-flex justify-content-evenly p-2 pt-5">
           <div className="col-md-7 text-start">
             <h5 className=" text-start text-color-orange fs-2 fw-bolder">
-              Gurudwara Sahib Gomti Nagar{" "}
+              Gurudwaras in Malaysia{" "}
             </h5>
             <p className="lh-lg pt-4  fs-5 text-justify text-wrap">
-              गुरुद्वारा सचखंड साहिब गोमती नगर लखनऊ में विपुल खंड -6 में स्थित
-              है । 90 के दशक में गोमती नगर के गुरु नानक नाम लेवा सांगतो ने गुरु
-              नानक सत्संग सभा का गठन किया , जिसका उद्देश्य घर-घर जाकर श्री
-              सुखमनी ! साहिब जी के पाठ कराना एवं आपस में मेलजोल बढ़ाना था । इसी
-              संस्था ने वर्ष 2002 से गोमती नगर में गुरुद्वारा साहिब की स्थापना
-              का प्रयास शुरू किया ।
+              Singhs and Kaurs Society Malaysia, a community of Sewadars
+              (Volunteers) established over the past 19 years wants to serve the
+              Malaysian Indian Communities. We hope to promote connectivity and
+              act as one on bringing the idea of wellness, spirituality and
+              abundance into our lives. Singhs and Kaurs Society Malaysia aims
+              to educate ourselves, our peers and our generation to uphold
+              Indian languages, cultures, religions and thrive to give back to
+              the community as active volunteers.
             </p>
             <p className="lh-lg pt-3  fs-5 text-justify text-wrap">
-              वर्ष 2003 में सोसाइटी रजिस्ट्रेशन एक्ट(21)1960 के अंतर्गत श्री
-              गुरु नानक सत्संग सभा नामक संस्था का रजिस्ट्रेशन कराया गया । यह
-              संस्था गुरुद्वारा सचखंड साहिब का संचालन करती है । वर्ष 2004-5 में
-              गुरुद्वारा साहिब बनकर तैयार हुआ और 11 सितंबर 2004 को प्रथम बार
-              श्री गुरु ग्रंथ साहिब जी का प्रकाश गुरुद्वारा सचखंड साहिब में किया
-              गया , तब से लगातार पाठ कीर्तन लंगर गुरुपुरबों का आयोजन गुरुद्वारा
-              साहिब में आयोजित किया जा रहा है । वर्ष 2009 में गुरुद्वारा साहिब
-              का पुनः निर्माण / विस्तार किया गया । गुरुद्वारा साहिब द्वारा
-              निशुल्क होम्योपैथिक क्लीनिक एवं पंजाबी भाषा तथा सिख धर्म के प्रचार
-              प्रसार के कार्य किए जा रहे हैं ।
+            Focused on the essential elements of wellbeing.
+A holistic approach to living life with meaning, vigour and social connectivity.
+
+
             </p>
           </div>
           <div
-            className="col-md-4  border-color-blue  d-flex align-items-center flex-column pt-2"
+            className="col-md-4    d-flex align-items-center flex-column pt-2"
             style={{ height: "550px" }}
           >
             <div className="py-2">
-              <h4 className="text-bold text-color-orange">HUKUMNAMA</h4>
+              {/* <h4 className="text-bold text-color-orange">HUKUMNAMA</h4>
               <p className="text-center fs-lighter">
                 <span className="color-text-blue">
-                {/* hukumnamaData.hukamnamaDate */}
-                  {!hukumnamaData ? currentDate : hukumnamaData.hukamnamaDate }
+                  hukumnamaData.hukamnamaDate
+                  {!hukumnamaData ? currentDate : hukumnamaData.hukamnamaDate}
                 </span>
               </p>
-              <hr />
+              <hr /> */}
+              <img src={img0} height="100%"  width={"100%"}/>
             </div>
             <div className="text-center text-md-start overflow-auto h-75 ">
-            
-                {!hukumnamaData
-                  ? ( <p> "Today's Hukumnama will be updated soon"</p> )
-                 : !hukumnamaData.hukamnamaText ? ( <img src={`${url}/api/v1/image/${hukumnamaData.photo}`} className="img-fluid" alt="" /> ) : (<p>{hukumnamaData.hukamnamaText}</p>) }
-            
+              {/* {!hukumnamaData ? (
+                <p> "Today's Hukumnama will be updated soon"</p>
+              ) : !hukumnamaData.hukamnamaText ? (
+                <img
+                  src={`${url}/api/v1/image/${hukumnamaData.photo}`}
+                  className="img-fluid"
+                  alt=""
+                />
+              ) : (
+                <p>{hukumnamaData.hukamnamaText}</p>
+              )} */}
             </div>
           </div>
 
           <div className="col-md-7 text-start"></div>
           <div className="col-md-4 text-center">
-            {hukumnamaData ? (
+            {/* {hukumnamaData ? (
               <p>
                 {" "}
                 If you want to see the full Image of the Hukamnama{" "}
-                <span onClick={() => hukamNamaImg()} className="text-primary" style={{cursor:'pointer'}}>
+                <span
+                  onClick={() => hukamNamaImg()}
+                  className="text-primary"
+                  style={{ cursor: "pointer" }}
+                >
                   click here
                 </span>{" "}
               </p>
             ) : (
               <p>Hukamnama Image will be updated soon</p>
-            )}
+            )} */}
           </div>
         </div>
       </div>
@@ -243,7 +249,6 @@ let currentDate = date.getDate() +"/"+ (date.getMonth() + 1)  +"/"+ date.getFull
                       </tr>
                     );
                   })}
-                
                 </tbody>
               </table>
             </div>

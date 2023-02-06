@@ -44,7 +44,8 @@ const SingleUpComingEvent = (props) => {
           >
             {" "}
             <p className="fs-5 rounded-bottom color-primary-bg py-2">
-              {props.data.footerText}
+              {/* {props.data.footerText} */}
+              {"                  "}
             </p>
           </Link>
         </div>

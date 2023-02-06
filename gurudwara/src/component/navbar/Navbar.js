@@ -29,7 +29,7 @@ const Navbar = () => {
       
       <img width={100} src={img1} alt="logo"/>
         </Link>
-        <h1 className=" text-white  mx-auto logo-text  " style={{fontFamily: `'Poppins', sans-serif`}}>GURDWARA SAHIB PUTRAJAYA</h1>
+        <h1 className=" text-white  mx-auto logo-text  " style={{fontFamily: `'Poppins', sans-serif`}}>GURDWARA IN MALAYSIA</h1>
       </div>
       <nav
         className="navbar navbar-expand-lg navbar-light bg-light"
@@ -206,12 +206,13 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                   >
-                 Colleges/Gurudwars Sahib
+                 {/* Colleges/Gurudwars Sahib */}
+                 Gurdwara Sahib Putrajaya
                 </Link>
                 <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
-                      <li >
+                      <li>
                       <Link className="dropdown-item" to="/colleges">
-                      Sikh Colleges in India
+                      Sikh Colleges in Malasiya
                       </Link>
                       </li>
                
