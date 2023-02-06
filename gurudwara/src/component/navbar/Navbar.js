@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import img1 from "../../asset/images/gurudwara-logo.png";
+import img1 from "../../asset/images/logo.png";
 
 const Navbar = () => {
   const [fix, setFix] = useState({});
