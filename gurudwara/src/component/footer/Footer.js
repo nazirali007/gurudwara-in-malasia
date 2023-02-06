@@ -1,6 +1,7 @@
 import React from "react";
 import { Facebook, Twitter, Youtube } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
+import img0 from "../../asset/images/logo.png"
 const Footer = () => {
   const goToTop = () => {
     window.scrollTo({
@@ -16,9 +17,9 @@ const Footer = () => {
             {" "}
             <Link to="/" onClick={goToTop}>
               <img
-                src="/images/gurudwara-logo.png"
+                src={img0}
                 className="img-fluid logo-img pb-5 ms-md-5 footer-logo"
-                alt=""
+                alt="logo"
               />{" "}
             </Link>
           </div>
