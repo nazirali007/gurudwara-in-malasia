@@ -27,9 +27,9 @@ const Navbar = () => {
 
       <Link to="/">
       
-      <img width={100} src={img1} alt="logo"/>
+      <img width={150} src={img1} alt="logo"/>
         </Link>
-        <h1 className=" text-white  mx-auto logo-text  " style={{fontFamily: `'Poppins', sans-serif`}}>GURDWARA IN MALAYSIA</h1>
+        <h1 className=" text-white  mx-auto logo-text  " style={{fontFamily: `'Poppins', sans-serif`}}>GURDWARA SAHIB PUTRAJAYA</h1>
       </div>
       <nav
         className="navbar navbar-expand-lg navbar-light bg-light"

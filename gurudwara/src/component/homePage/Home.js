@@ -84,7 +84,7 @@ const Home = () => {
   return (
     <>
       <BannerUsable data={home} />
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row d-flex justify-content-evenly p-2 pt-5">
           <div className="col-md-7 text-start">
             <h5 className=" text-start text-color-orange fs-2 fw-bolder">
@@ -112,51 +112,40 @@ A holistic approach to living life with meaning, vigour and social connectivity.
             style={{ height: "550px" }}
           >
             <div className="py-2">
-              {/* <h4 className="text-bold text-color-orange">HUKUMNAMA</h4>
-              <p className="text-center fs-lighter">
-                <span className="color-text-blue">
-                  hukumnamaData.hukamnamaDate
-                  {!hukumnamaData ? currentDate : hukumnamaData.hukamnamaDate}
-                </span>
-              </p>
-              <hr /> */}
+            
               <img src={img0} height="100%"  width={"100%"}/>
             </div>
             <div className="text-center text-md-start overflow-auto h-75 ">
-              {/* {!hukumnamaData ? (
-                <p> "Today's Hukumnama will be updated soon"</p>
-              ) : !hukumnamaData.hukamnamaText ? (
-                <img
-                  src={`${url}/api/v1/image/${hukumnamaData.photo}`}
-                  className="img-fluid"
-                  alt=""
-                />
-              ) : (
-                <p>{hukumnamaData.hukamnamaText}</p>
-              )} */}
+              
             </div>
           </div>
 
           <div className="col-md-7 text-start"></div>
           <div className="col-md-4 text-center">
-            {/* {hukumnamaData ? (
-              <p>
-                {" "}
-                If you want to see the full Image of the Hukamnama{" "}
-                <span
-                  onClick={() => hukamNamaImg()}
-                  className="text-primary"
-                  style={{ cursor: "pointer" }}
-                >
-                  click here
-                </span>{" "}
-              </p>
-            ) : (
-              <p>Hukamnama Image will be updated soon</p>
-            )} */}
           </div>
         </div>
+      </div> */}
+
+
+
+<div className="putrajaya">
+        <nav className="socialLink putrajaya_social">
+          Follow Us
+          <a href="https://www.facebook.com/gurdwarasahib.putrajaya.3" target="_blank"><img src="https://singhskaursmy.org/wp-content/themes/ituza/images/top_fceb.png" /></a>
+          <a href="https://twitter.com/SahibGurdwara" target="_blank"><img src="https://singhskaursmy.org/wp-content/themes/ituza/images/top_twit.png" /></a>
+          <a href="http://www.youtube.com/channel/UCmMWzH9gT7ivEVsvmumWVfg" target="_blank"><img src="https://singhskaursmy.org/wp-content/themes/ituza/images/top_yout.png" /></a>
+        </nav>
+        <div className="putrajaya_content  revealOnScroll animated slideInRight" data-animation="slideInRight" data-timeout={1000}>
+          <h2>Gurdwara Sahib Putrajaya(GSP); <br />
+            #SikhRoadToPutrajaya </h2>
+          <p>
+            Is a marvel of worship in the making. It is our founder's Major Jagindar Singh (RTD) who is also the current President of Gurdwara Sahib Putrajaya (GSP). His vision is to bring together a community of Sikhs who collaborate as "Sewadars" (community volunteers). Such virtue is to withhold core principles of Sikhism laid down by the Gurus themselves. The vision of GSP harmonises with that of Singhs and Kaur Society Malaysia. Both these standalone entities are working collaboratively on the core principles of Sikhism that serves all Malaysian Indian communities.        
+          </p>
+          <a href="https://www.singhskaursmy.org/gurdwara-sahib-putrajaya/" className="readmore">Know More</a>
+          <div style={{clear: 'both', height: '30px'}} />
+        </div>
       </div>
+      
 
       <div className="mt-md-4">
         {/* <hr/> */}
