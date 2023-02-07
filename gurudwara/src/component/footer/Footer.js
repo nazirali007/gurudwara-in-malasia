@@ -17,7 +17,7 @@ const Footer = () => {
             {" "}
             <Link to="/" onClick={goToTop}>
               <img
-                src={img0}
+                width={150} src={img0}
                 className="img-fluid logo-img pb-5 ms-md-5 footer-logo"
                 alt="logo"
               />{" "}
